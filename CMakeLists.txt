@@ -29,3 +29,10 @@ foreach(source_file IN LISTS RNNOISE_SOURCES)
     endif()
 endforeach()
 
+
+foreach(file ${RNNOISE_SOURCES})
+    file(READ "${file}" CONTENTS)
+    if(CONTENTS MATCHES "int main\\s*\\(")
+        list(REMOVE_ITEM RNNOISE_SOURCES ${file})
+    endif()
+endforeach()
