@@ -1,5 +1,5 @@
 #! /bin/bash
-# Generated automatically by config.status (rnnoise) 0.2-22-g70f1d25
+# Generated automatically by config.status (rnnoise) 0.2-24-g035b18c-dirty
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 
 # Provide generalized library-building support services.
